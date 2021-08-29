@@ -1,5 +1,5 @@
 {
-  "name": "react-slideshow-image-simple",
+  "name": "react-slideshow",
   "version": "3.5.0",
   "author": "Trung Khong folked",
   "description": "An image slideshow with react",
@@ -81,6 +81,7 @@
   },
   "dependencies": {
     "@tweenjs/tween.js": "^18.1.2",
+    "react-slideshow-image-simple": "github:trungkhong/react-slideshow#master",
     "resize-observer-polyfill": "^1.5.1"
   },
   "bugs": {
