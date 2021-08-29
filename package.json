@@ -87,11 +87,11 @@
   "bugs": {
     "url": "https://github.com/trungkhong/react-slideshow/issues"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/trungkhong"
+  },
   "directories": {
     "doc": "docs"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   },
   "license": "ISC"
 }
