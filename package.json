@@ -1,7 +1,7 @@
 {
-  "name": "react-slideshow-image",
+  "name": "react-slideshow-image-simple",
   "version": "3.5.0",
-  "author": "Femi Oladeji",
+  "author": "Trung Khong folked",
   "description": "An image slideshow with react",
   "files": [
     "lib",
@@ -82,5 +82,12 @@
   "dependencies": {
     "@tweenjs/tween.js": "^18.1.2",
     "resize-observer-polyfill": "^1.5.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/femioladeji/react-slideshow/issues"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "license": "ISC"
 }
