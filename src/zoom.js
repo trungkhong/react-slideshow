@@ -1,14 +1,11 @@
+import TWEEN from '@tweenjs/tween.js';
 import React, { Component, createRef } from 'react';
 import ResizeObserver from 'resize-observer-polyfill';
-import TWEEN from '@tweenjs/tween.js';
-import { validatePropTypes, propTypes, getProps } from './props';
 import {
-  getUnhandledProps,
-  showNextArrow,
-  showPreviousArrow,
-  showIndicators,
-  getEasing
+  getEasing, getUnhandledProps, showIndicators, showNextArrow,
+  showPreviousArrow
 } from './helpers.js';
+import { getProps, propTypes, validatePropTypes } from './props';
 
 class Zoom extends Component {
   constructor(props) {
@@ -257,9 +254,6 @@ class Zoom extends Component {
         .to({ opacity: 1, scale }, transitionDuration)
         .onUpdate(value => {
           if (this.divsContainer) {
-            this.divsContainer.children[newIndex].style.opacity = value.opacity;
-            this.divsContainer.children[index].style.opacity =
-              1 - value.opacity;
             this.divsContainer.children[
               index
             ].style.transform = `scale(${value.scale})`;
