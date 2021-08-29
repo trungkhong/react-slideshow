@@ -1,13 +1,13 @@
 {
   "name": "react-slideshow",
-  "version": "3.5.0",
+  "version": "1.0.0",
   "author": "Trung Khong folked",
   "description": "An image slideshow with react",
   "files": [
     "lib",
     "dist"
   ],
-  "homepage": "https://react-slideshow.herokuapp.com",
+  "homepage": "https://github.com/trungkhong/react-slideshow#readme",
   "npmFileMap": [
     {
       "basePath": "/dist/",
@@ -85,10 +85,13 @@
     "resize-observer-polyfill": "^1.5.1"
   },
   "bugs": {
-    "url": "https://github.com/femioladeji/react-slideshow/issues"
+    "url": "https://github.com/trungkhong/react-slideshow/issues"
   },
   "directories": {
     "doc": "docs"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "license": "ISC"
 }
