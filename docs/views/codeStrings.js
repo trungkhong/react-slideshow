@@ -6,7 +6,7 @@ export const tsConfigCodeString = `
 `;
 
 export const forTS = `
-  declare module 'react-slideshow-image' {
+  declare module 'react-slideshow-image-simple' {
     export class Zoom extends React.Component<ZoomProps & any, any> {
         goBack(): void;
         goNext(): void;
@@ -48,7 +48,7 @@ export const forTS = `
 
 export const slideEffectCodeString = `
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Slide } from 'react-slideshow-image-simple';
 
 const slideImages = [
   'images/slide_2.jpg',
@@ -102,7 +102,7 @@ export const SlideEffectCSSString = `
 
 export const fadeEffectCodeString = `
 import React from 'react';
-import { Fade } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image-simple';
 
 const FadeExample = () => {
   const fadeImages = [
@@ -173,7 +173,7 @@ export const fadeEffectCSS = `
 
 export const zoomInEffectCodeString = `
 import React from 'react';
-import { Zoom } from 'react-slideshow-image';
+import { Zoom } from 'react-slideshow-image-simple';
 
 const Slideshow = () => {
   const images = [
@@ -204,7 +204,7 @@ export default Slideshow;
 
 export const zoomOutEffectCodeString = `
 import React from 'react';
-import { Zoom } from 'react-slideshow-image';
+import { Zoom } from 'react-slideshow-image-simple';
 
 const Slideshow = () => {
   const images = [
@@ -300,14 +300,14 @@ export const cssCodeString = `
 export const nextCodeString = `
   import dynamic from 'next/dynamic';
   const Fade = dynamic(() =>
-    import('react-slideshow-image').then((slideshow) => slideshow.Fade),
+    import('react-slideshow-image-simple').then((slideshow) => slideshow.Fade),
     { ssr: false }
   )
 `;
 
 export const customArrow = `
 import React from "react";
-import { Slide } from 'react-slideshow-image';
+import { Slide } from 'react-slideshow-image-simple';
 
 const CustomArrowExample = () => {
   const slideImages = [
@@ -352,7 +352,7 @@ export default CustomArrowExample;
 
 export const customIndicators = `
 import React from 'react';
-import { Zoom } from 'react-slideshow-image';
+import { Zoom } from 'react-slideshow-image-simple';
 
 const Slideshow = () => {
   const images = [
@@ -393,7 +393,7 @@ export const customIndicatorCSS = `
 `;
 export const pauseOnHover = `
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Slide } from 'react-slideshow-image-simple';
 
 const PauseHoverExample = () => {
   const images = [
@@ -441,7 +441,7 @@ export default PauseHoverExample;
 
 export const canSwipe = `
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Slide } from 'react-slideshow-image-simple';
 
 const canSwipeExample = () => {
   const images = [
@@ -489,7 +489,7 @@ export default CanSwipeExample;
 
 export const autoplayCode = `
 import React, { useState } from "react";
-import { Slide } from "react-slideshow-image";
+import { Slide } from "react-slideshow-image-simple";
 
 const AutoplayExample = () => {
   const [autoplay, setAutoplay] = useState(true);
@@ -533,7 +533,7 @@ export default AutoplayExample;
 
 export const methodCode = `
 import React, { useRef } from "react";
-import { Slide } from "react-slideshow-image";
+import { Slide } from "react-slideshow-image-simple";
 
 const MethodsExample = () => {
   const slideRef = useRef();
@@ -597,7 +597,7 @@ export default MethodsExample;
 
 export const callbackCode = `
 import React, { useState } from "react";
-import { Fade } from "react-slideshow-image";
+import { Fade } from "react-slideshow-image-simple";
 
 const CallbackExample = () => {
   const [previousIndex, setPreviousIndex] = useState(null);
@@ -647,7 +647,7 @@ export default CallbackExample;
 
 export const multipleSlides = `
 import React, { useState } from "react";
-import { Slide } from "react-slideshow-image";
+import { Slide } from "react-slideshow-image-simple";
 
 const MultipleSlidesExample = () => {
   const style = {

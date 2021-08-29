@@ -7,11 +7,11 @@ module.exports = {
   entry: "./src/index",
 
   output: {
-    library: "react-slideshow-image",
+    library: "react-slideshow-image-simple",
     libraryTarget: "umd",
     path: path.join(__dirname, "dist"),
     globalObject: 'this',
-    filename: "react-slideshow-image.min.js"
+    filename: "react-slideshow-image-simple.min.js"
   },
 
   module: {

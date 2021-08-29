@@ -2,28 +2,28 @@
 
 [![CircleCI](https://circleci.com/gh/femioladeji/react-slideshow.svg?style=svg)](https://circleci.com/gh/femioladeji/react-slideshow)
 [![codecov](https://codecov.io/gh/femioladeji/react-slideshow/branch/master/graph/badge.svg)](https://codecov.io/gh/femioladeji/react-slideshow)
-[![Package Quality](http://npm.packagequality.com/shield/react-slideshow-image.svg)](http://packagequality.com/#?package=react-slideshow-image)
-[![downloads](https://img.shields.io/npm/dm/react-slideshow-image.svg)](https://www.npmjs.com/package/react-slideshow-image)
+[![Package Quality](http://npm.packagequality.com/shield/react-slideshow-image-simple.svg)](http://packagequality.com/#?package=react-slideshow-image-simple)
+[![downloads](https://img.shields.io/npm/dm/react-slideshow-image-simple.svg)](https://www.npmjs.com/package/react-slideshow-image-simple)
 
 A simple slideshow component built with react that supports slide, fade and zoom effects. For full documentation click [here](https://react-slideshow.herokuapp.com)
 
 ## Installation
 ```
-npm install react-slideshow-image -S
+npm install react-slideshow-image-simple -S
 ```
 
 ```
-yarn add react-slideshow-image
+yarn add react-slideshow-image-simple
 ```
 
 You need to import the css style, you can do that by adding to the js file
 ```js
-import 'react-slideshow-image/dist/styles.css'
+import 'react-slideshow-image-simple/dist/styles.css'
 
 ```
 or to your css file
 ```css
-@import "react-slideshow-image/dist/styles.css";
+@import "react-slideshow-image-simple/dist/styles.css";
 
 ```
 
@@ -33,8 +33,8 @@ You can use three different effects of the slideshow. Check [examples](https://r
 You can use this [playground](https://codesandbox.io/s/serene-lalande-yjmol) to tweak some values
 ```js
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import { Slide } from 'react-slideshow-image-simple';
+import 'react-slideshow-image-simple/dist/styles.css'
 
 const slideImages = [
   {
@@ -72,8 +72,8 @@ const Slideshow = () => {
 You can use this [playground](https://codesandbox.io/s/admiring-wave-17e0j) to tweak some values
 ```js
 import React from 'react';
-import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import { Fade } from 'react-slideshow-image-simple';
+import 'react-slideshow-image-simple/dist/styles.css'
 
 const fadeImages = [
   {
@@ -112,8 +112,8 @@ const Slideshow = () => {
 You can use this [playground](https://codesandbox.io/s/priceless-bohr-ggirf) to tweak some values
 ```js
 import React from 'react';
-import { Zoom } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import { Zoom } from 'react-slideshow-image-simple';
+import 'react-slideshow-image-simple/dist/styles.css'
 
 const images = [
   'images/slide_2.jpg',

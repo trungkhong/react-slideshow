@@ -1,6 +1,6 @@
 {
-  "name": "react-slideshow",
-  "version": "1.0.0",
+  "name": "react-slideshow-simple",
+  "version": "1.0.1",
   "author": "Trung Khong folked",
   "description": "An image slideshow with react",
   "files": [
@@ -69,7 +69,7 @@
       "git add ."
     ]
   },
-  "main": "dist/react-slideshow-image.min.js",
+  "main": "dist/react-slideshow-image-simple.min.js",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --config webpack.config.dist.js && uglifycss src/css/styles.css > dist/styles.css   ",
@@ -81,14 +81,14 @@
   },
   "dependencies": {
     "@tweenjs/tween.js": "^18.1.2",
-    "react-slideshow-image-simple": "github:trungkhong/react-slideshow#master",
+    "react-slideshow-image-simple-simple": "github:trungkhong/react-slideshow#master",
     "resize-observer-polyfill": "^1.5.1"
   },
   "bugs": {
     "url": "https://github.com/trungkhong/react-slideshow/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/trungkhong"
+    "registry": "http://registry.npmjs.org/trungkhong92"
   },
   "directories": {
     "doc": "docs"

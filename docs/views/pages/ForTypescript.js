@@ -1,7 +1,7 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import { tsConfigCodeString, forTS } from '../codeStrings';
+import { forTS, tsConfigCodeString } from '../codeStrings';
 
 const ForTypescript = () => {
   return (
@@ -19,7 +19,7 @@ const ForTypescript = () => {
           <SyntaxHighlighter
             language="javascript"
             style={dark}
-          >{`types/react-slideshow-image/index.d.ts`}</SyntaxHighlighter>
+          >{`types/react-slideshow-image-simple/index.d.ts`}</SyntaxHighlighter>
         </div>
         <p>3. Copy and paste this into it</p>
         <div>
